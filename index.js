@@ -1,6 +1,6 @@
 // Add your Circle class here
 
 class Circle {
-  get something(){}
+  get r(){}
   set something(){}
 }
