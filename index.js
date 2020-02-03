@@ -16,7 +16,8 @@ class Circle {
   }
   
   set diameter(diameter){
-    this.diameter = diameter;
+    if (diameter > 0)
+      this.diameter = diameter;
   }
   
   get circumference(){
