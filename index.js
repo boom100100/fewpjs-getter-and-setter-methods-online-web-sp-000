@@ -5,7 +5,7 @@ class Circle {
     this.radius = radius;
   }
   get radius(){
-    return this.radius
+    return this.radius;
   }
   set radius(radius){
     this._radius = radius;
