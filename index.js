@@ -10,7 +10,7 @@ class Circle {
   }
   
   get circumference(){
-    return diameter()
+    return diameter() * Math.PI;
   }
   /*get radius(){
     return this.radius;
