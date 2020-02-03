@@ -1,6 +1,9 @@
 // Add your Circle class here
 
 class Circle {
-  get r(){}
-  set something(){}
+  constructor(radius){
+    this.radius = radius;
+  }
+  get radius(){}
+  set radius(){}
 }
