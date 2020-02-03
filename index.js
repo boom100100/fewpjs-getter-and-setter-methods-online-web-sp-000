@@ -4,10 +4,10 @@ class Circle {
   constructor(radius){
     this.radius = radius;
   }
-  get radius(){
+  /*get radius(){
     return this.radius;
   }
   set radius(radius){
     this.radius = radius;
-  }
+  }*/
 }
