@@ -12,6 +12,10 @@ class Circle {
   get circumference(){
     return diameter() * Math.PI;
   }
+  
+  get area(){
+    this.radius * this.radius * Math.PI;
+  }
   /*get radius(){
     return this.radius;
   }
